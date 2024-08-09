@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robototexnika Laboratoriyası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .hero {
+            background-image: url('robotics-lab.jpg'); /* Replace with your image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .chatbot {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Robototexnika Laboratoriyası</h1>
+        <p>Azərbaycan Aviasiya Universiteti</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Əsas Səhifə</a>
+        <a href="#about">Haqqımızda</a>
+        <a href="#technologies">Texnologiyalar</a>
+        <a href="#library">Kitabxana</a>
+        <a href="#projects">Layihələr</a>
+        <a href="#team">Komanda</a>
+        <a href="#contact">Əlaqə</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Gələcəyin Texnologiyalarını Bugün Öyrənin</h2>
+    </div>
+
+    <!-- About Us Section -->
+    <div id="about" class="section">
+        <h2>Haqqımızda</h2>
+        <p>Robototexnika Laboratoriyası, tələbələrə və tədqiqatçılara ən son texnologiyalar üzrə tədqiqat və təcrübə aparmaq imkanı yaradır.</p>
+    </div>
+
+    <!-- Technologies Section -->
+    <div id="technologies" class="section">
+        <h2>Texnologiyalar</h2>
+        <p>AI, Maşın Öyrənməsi, Dron Texnologiyası və daha çoxu.</p>
+    </div>
+
+    <!-- Library Section -->
+    <div id="library" class="section">
+        <h2>Kitabxana</h2>
+        <p>Robototexnika və əlaqəli sahələrdə tədqiqat materialları.</p>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="section">
+        <h2>Layihələr</h2>
+        <p>Ən son layihələr və tədqiqat işləri.</p>
+    </div>
+
+    <!-- Team Section -->
+    <div id="team" class="section">
+        <h2>Komanda</h2>
+        <p>Laboratoriya rəhbərləri və tədqiqatçıları ilə tanış olun.</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2>Əlaqə</h2>
+        <p>Bizimlə əlaqə saxlamaq üçün formu doldurun.</p>
+    </div>
+
+    <!-- Chatbot Section -->
+    <div class="chatbot" onclick="alert('Çatbot funksiyası hələlik mövcud deyil!')">
+        Çatbot
+    </div>
+
+</body>
+</html>
